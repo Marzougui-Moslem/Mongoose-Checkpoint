@@ -2,9 +2,6 @@ console.clear()
 const express=require("express");
 const mongoose=require("mongoose");
 const routerProduct = require("./router/productRouter.js");
-const routerUser = require("./router/userRouter.js");
-
-
 
 const app =express();
 require("dotenv").config();
